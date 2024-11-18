@@ -40,7 +40,7 @@ h1 {
 }
 
 p, li, td {
-    size: 16px;
+    font-size: 16px;
     color: hsl(30, 10%, 34%);
 }
 
