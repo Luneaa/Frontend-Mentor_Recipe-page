@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    max-width: 40rem;
+    min-width: 320px;
+    margin: 3rem auto;
+    padding: 30px;
+    text-align: left;
+}
+img {
+    max-width: 100%;
+    border-radius: 12px;  
+}
+h1, h2 {
+    font-family: "Young Serif", serif;
+    letter-spacing: 1px;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    margin-top: 15px;
+}
+
+p, li, td {
+    size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+ul, ol {
+    margin: 10px 20px;
+}
+
+li {
+    padding: 6px;
+}
+
+.separation_line {
+    background-color: hsl(30, 18%, 87%);
+    border-radius: 2px;
+    border: none;
+    margin: 10px 0 16px 0;
+    height: 2px;
+}
+
+.section_container {
+    margin: 10px 0;
+}
+
+.section_description {
+    margin: 15px 0;
+}
+
+.background_preparation {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+}
+.title_preparation {
+    color: hsl(332, 51%, 32%);
+}
+
+.subtitle {
+    color: hsl(14, 45%, 36%);
+}
+
+tr td:nth-child(2) {
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+    width: 100%;
+}
+
+table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
+
+table td {
+    padding: 13px 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
